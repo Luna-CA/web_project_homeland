@@ -1,0 +1,33 @@
+.header {
+  text-align: center;
+  padding: 34px 0 92px;
+}
+
+.header__logo {
+  width: 254px;
+  height: 70px;
+}
+
+.header__image {
+  width: 984px;
+  height: 615px;
+}
+
+.header__title {
+  margin: 90px 0 32px;
+  font-size: 96px;
+  width: 793px;
+  height: 200px;
+  font-family: Inter;
+  font-weight: 900;
+  font-style: Black;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.header__subtitle {
+  margin: 0 0 64px;
+  font-size: 30px;
+  line-height: 1.2;
+}
