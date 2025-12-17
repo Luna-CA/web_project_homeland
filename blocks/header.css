@@ -1,6 +1,9 @@
 .header {
   text-align: center;
   padding: 34px 0 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header__logo {
@@ -8,26 +11,30 @@
   height: 70px;
 }
 
-.header__image {
-  width: 984px;
-  height: 615px;
-}
-
 .header__title {
   margin: 90px 0 32px;
   font-size: 96px;
-  width: 793px;
+  width: 720px;
   height: 200px;
-  font-family: Inter;
+  font-family: "Inter" Arial, sans-serif;
   font-weight: 900;
-  font-style: Black;
   line-height: 100px;
-  letter-spacing: 0%;
-  text-align: center;
 }
 
 .header__subtitle {
   margin: 0 0 64px;
   font-size: 30px;
-  line-height: 1.2;
+  font-family: "Inter" Arial, sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 720px;
+  height: 72px;
+}
+
+.header__image {
+  width: 100%;
+  max-width: 984px;
+  height: auto;
 }

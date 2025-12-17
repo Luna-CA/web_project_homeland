@@ -1,0 +1,12 @@
+.footer {
+  font-family: "Inter" Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 24px;
+}
+
+.footer__text {
+  display: flex;
+  justify-content: center;
+}
