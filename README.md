@@ -15,4 +15,4 @@ Uma página web responsiva que apresenta as cidades natais de funcionários da T
 
 ## Link do Projeto
 
-[Link para o GitHub Pages]
+gh repo clone Luna-CA/web_project_homeland
