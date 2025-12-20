@@ -44,3 +44,85 @@
   font-weight: 400;
   line-height: 163%;
 }
+
+@media screen and (max-width: 1024px) {
+  .content {
+    font-family: "Inter", sans-serif;
+    position: static;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .content__title {
+    font-size: 45px;
+    line-height: 49px;
+    font-weight: 900;
+  }
+
+  .content__quote-text {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+  }
+
+  .content__quote-author {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+  }
+
+  .content__text {
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .content {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    height: auto;
+    align-items: center;
+    width: 100%;
+    max-width: 288px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .content__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 288px;
+    height: auto;
+  }
+
+  .content__quote-text {
+    width: 288px;
+    height: auto;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+
+  .content__quote-author {
+    width: 288px;
+    height: auto;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .content__quote {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .content__text {
+    width: 288px;
+    height: auto;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}

@@ -10,3 +10,32 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    font-family: "Inter", sans-serif;
+    margin-top: 88px;
+  }
+  .footer__text {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+}
+
+
+@media screen and (max-width: 544px) {
+
+  .footer {
+    font-family: "Inter", sans-serif;
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 24px;
+  }
+  .footer__text {
+    width: 166px;
+    height: auto;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
