@@ -1,0 +1,43 @@
+.places {
+  max-width: 984px;
+}
+
+.place {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 48px 40px;
+  grid-template-areas:
+    "image title"
+    "image website"
+    "image description"
+    "image button";
+}
+
+.place__title {
+  grid-area: title;
+  max-width: 460px;
+}
+
+.place__website {
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 456px;
+}
+.place__image {
+  grid-area: image;
+  aspect-ratio: 1 / 1;
+  max-width: 460px;
+}
+
+.place__description {
+  grid-area: description;
+  max-width: 484px;
+}
+.place__button {
+  grid-column: 1 / -1;
+  max-width: 356px;
+}
