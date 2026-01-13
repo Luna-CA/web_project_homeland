@@ -9,6 +9,7 @@
 .footer__text {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,19 +24,18 @@
   }
 }
 
-
 @media screen and (max-width: 544px) {
-
   .footer {
     font-family: "Inter", sans-serif;
-    margin: auto;
     margin-top: 64px;
     margin-bottom: 24px;
   }
   .footer__text {
-    width: 166px;
+    max-width: 288px;
+    width: 100%;
     height: auto;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 16px;
+    margin: 0 auto;
   }
 }
